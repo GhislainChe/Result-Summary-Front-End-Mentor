@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #f5f9ff;
+  background: hsl(241, 100%, 89%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@ body {
 
 .container {
   display: flex;
-  background: #fff;
+  background: hsl(0, 0%, 100%);
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
   overflow: hidden;
