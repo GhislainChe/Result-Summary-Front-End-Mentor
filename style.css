@@ -19,6 +19,7 @@ body{
 }
 
 .container {
+    background-color: hsl(0, 0%, 100%);
     width: 35%;
     min-width: 400px;
     height: 50%;
@@ -27,7 +28,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 12px;
 }
 
@@ -38,14 +39,41 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 5px;
+    /* padding: 10px; */
     align-items: center;
 }
 
 .container .left h1{
     color: white;
     font-size: 1rem;
+    font-weight: 500;
+    font-size: Hanken Grotesk, sans-serif;
     /* margin: 0; */
+}
+
+.container .left .percent{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.container .left .percent .score{
+    color: #fff;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.container .left .percent .out-of{
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
 }
 
 .container .right{
