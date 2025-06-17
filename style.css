@@ -30,6 +30,7 @@ body{
     align-items: center;
     /* border: 1px solid black; */
     border-radius: 12px;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.26);
 }
 
 .container .left{
@@ -99,5 +100,29 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* align-items: center; */
+}
+
+.container .right h2{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.container .right ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+    margin: 10px;
     align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container .right ul li{
+   padding: ; 
 }
